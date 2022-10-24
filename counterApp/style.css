@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background-image: url('nature.jpg') ; 
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.card{
+    padding: 20px;
+    background: rgba(86, 58, 114, 0.4);
+    border-radius: 10px;
+    z-index: 3;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+    width: 30%;
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: aqua;
+}
