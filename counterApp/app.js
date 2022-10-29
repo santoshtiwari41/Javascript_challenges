@@ -11,6 +11,6 @@ document.getElementById("decrease").addEventListener('click',function()
 })
 
 if(count>0){
-    document.getElementById("countt").style.color=green;
+    document.getElementById("countt").style.color='red';
 
 }
