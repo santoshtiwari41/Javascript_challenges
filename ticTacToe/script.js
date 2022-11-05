@@ -12,8 +12,6 @@ function myfunc() {
     b8 = document.getElementById("b8").value;
     b9 = document.getElementById("b9").value;
  
-    // Checking if Player X won or not and after
-    // that disabled all the other fields
     if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' ||
         b2 == 'X') && (b3 == 'x' || b3 == 'X')) {
         document.getElementById('print')
